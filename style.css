@@ -1,0 +1,241 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fdf1e8;
+}
+
+a{
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#navlinks:hover{
+    color: black;
+    border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
+    transition: 0.3s ease-in-out;
+}
+
+h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 70px;
+    text-decoration: overline; 
+    text-decoration-color: #ff5a47;
+}
+
+h2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    text-decoration: underline; 
+    text-decoration-color: #ff5a47;
+}
+h3{
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+p{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+}
+#website{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar{
+    width: 17vw;
+    height: 100vh;
+    background-color: #ff5a47;
+     border-right: 2px solid #cc1400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+#head{
+    margin-top: -30px;
+}
+
+#navcontent{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+#links{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -85px;
+}
+
+#navlinks{
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid #cc1400;
+     border-left: 2px solid #cc1400;
+    width: 12vw;
+    color: white;
+    font-size: 30px;
+    padding: 3vh;
+    transition: 0.3s ease-in-out;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 23vw;
+    padding: 10px;
+}
+
+.material-symbols-outlined{
+    color: #ff5a47;
+    font-size: 10px;
+    vertical-align: bottom;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar a.icon{
+    display: none;
+}
+
+#home, #education, #experience, #skills{
+    padding: 10px;
+    border-bottom: 1px solid #f0d0b7;
+}
+
+#inside{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.profile{
+    float: left;
+    margin-right: 30px;
+    margin-top: 35px;
+    border: 3px solid #ff5a47;
+}
+
+#socials{
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    background-color: #ff5a47;
+    border: 2px solid #cc1400;
+    margin: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+#socials:hover{
+    background-color: #cc1400;
+    border-color: #ff5a47;
+    transition: 0.3s ease-in-out;
+}
+@media only screen and (max-width:1000px) {
+
+    #links{
+        color: #ff5a47;
+        display: none;
+        margin-top: 40px;
+    }
+     #navbar{
+         display: flex;
+         flex-direction: row;
+         padding: 10px;
+         width: 100%;
+         height: 70px;
+         text-align: start;
+         border-bottom: 2px solid #cc1400;
+     }
+
+    #navlinks{
+        padding: 25px;
+        background-color: #ff5a47;
+        border-bottom: 2px solid #cc1400;
+        justify-content: flex-start;
+        display: flex;
+        width: 95vw;
+        text-align: start;
+     }
+
+    #navlinks:hover{
+    color: black;
+    border-bottom: 2px solid #000000;
+    transition: 0.3s ease-in-out;
+    }
+
+     #head{ 
+         margin: 20px;
+         margin-left: 15px;
+         position: fixed;
+         top: 0;
+         left: 0;
+     } 
+    
+    #navbar a.icon{
+        border-left: 2px solid #cc1400;
+        margin: 30px;
+        margin-top: 20px;
+        margin-right: 50px;
+        padding: 5px;
+        font-size: 40px;
+        display: block;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: 0.3s ease-in-out;
+    }
+     #navbar a.icon:hover{
+         color: black;
+         border-left: 2px solid black;
+         transition: 0.3s ease-in-out;
+     }
+    h3{
+        padding: 5px;
+        border-left: 2px solid #cc1400;
+        font-size: 35px;
+        color: white;
+        margin: 0px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    #content{
+        margin: 0px;
+        margin-top: 70px;
+        padding: 10px;
+    }
+    
+}
