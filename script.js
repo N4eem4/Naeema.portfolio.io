@@ -1,9 +1,9 @@
 function myFunction() {
-  var x = document.getElementById("links");
-  if (x.style.display === "flex") {
-    x.style.display = "none";
+  var link = document.getElementById("links");
+  if (link.style.display === "flex") {
+    link.style.display = "none";
   } else {
-    x.style.display = "flex";
+    link.style.display = "flex";
   }
 }
 
