@@ -40,10 +40,18 @@ h3{
 }
 
 p{
-    display: flex;
-    flex-wrap: wrap;
     font-family: 'Barlow', sans-serif;
     font-size: 30px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    list-style-type: circle;
+
 }
 #website{
     display: flex;
@@ -118,7 +126,15 @@ p{
     display: flex;
     flex-direction: row;
 }
-
+#container{
+    width: 400px;
+    background: yellow;
+}
+#floated{
+    float: left;
+    width: 200px;
+    background: red;
+}
 #navbar a.icon{
     display: none;
 }
@@ -129,9 +145,9 @@ p{
 }
 
 #inside{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-left: 0px;
 }
 
 .profile{
@@ -139,16 +155,18 @@ p{
     margin-right: 30px;
     margin-top: 35px;
     border: 3px solid #ff5a47;
+    border-radius: 10px;
 }
 
 #socials{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     padding: 10px;
     background-color: #ff5a47;
     border: 2px solid #cc1400;
     margin: 5px;
     transition: 0.3s ease-in-out;
+    border-radius: 10px;
 }
 
 #socials:hover{
