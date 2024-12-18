@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
    
-<body>
+<body onresize ="resize()">
     <div id = "website">
         <div id = "navbar">
               <div id = "navcontent">
@@ -25,14 +25,14 @@
                      <h3>Naeema Hassan</h3>
                 </div>
                 <div id = "links">
-                    <a id = "navlinks" href="#home">Home</a>
-                    <a id = "navlinks" href="#education">Education</a>
-                    <a id = "navlinks" href="#experience">Experience</a>
-                    <a id = "navlinks" href="#skills">Skills</a>
-                    <a id = "navlinks" href="#projects">Projects</a>
+                    <a onclick="navHide()" id = "navlinks" href="#home">Home</a>
+                    <a onclick="navHide()" id = "navlinks" href="#education">Education</a>
+                    <a onclick="navHide()" id = "navlinks" href="#experience">Experience</a>
+                    <a onclick="navHide()" id = "navlinks" href="#skills">Skills</a>
+                    <a onclick="navHide()" id = "navlinks" href="#projects">Projects</a>
                     
                 </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <a href="javascript:void(0);" class="icon" onclick="navHide()">
                 <i class="fa fa-bars"></i></a>
             </div>
             
@@ -52,7 +52,7 @@
                 </p>
                 </div>
                 <h2>Links</h2>
-                <div id = inside>
+                <div id = insideflex>
                     <a id = "socials" href = mailto:naeemahassan439@gmail.com>Email</a>
                     <a id = "socials" href = "https://www.linkedin.com/in/naeema-hassan-b94547282/">LinkedIn</a>
                     <a id = "socials" href = "https://docs.google.com/document/d/e/2PACX-1vSMLPxWWrxqAGd8NTbLmp_1UF87gMQ69e8udVlmBaqqSsVl53uJBR7mwTdIRsEW_a60tbtqatnLBjCp/pub">Resume</a>

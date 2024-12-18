@@ -4,6 +4,7 @@ html {
     margin: 0px;
     padding: 0px;
     background-color: #fdf1e8;
+    scroll-behavior: smooth;;
 }
 
 a{
@@ -159,7 +160,7 @@ ul{
 }
 
 #socials{
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     padding: 10px;
     background-color: #ff5a47;
@@ -169,14 +170,20 @@ ul{
     border-radius: 10px;
 }
 
+#insideflex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #socials:hover{
     background-color: #cc1400;
     border-color: #ff5a47;
     transition: 0.3s ease-in-out;
 }
 
-@media only screen  and (min-width: 1001px){
-    #links{
+
+@media only screen and (min-width:1000px){
+    #navbar{
         display: flex;
     }
 }
