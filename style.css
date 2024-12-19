@@ -54,6 +54,15 @@ ul{
     list-style-type: circle;
 
 }
+
+li{
+    color:#915650;
+}
+
+li span{
+    color: black;
+}
+
 #website{
     display: flex;
     flex-direction: row;
@@ -63,10 +72,11 @@ ul{
     width: 15vw;
     height: 100vh;
     background-color: #ff5a47;
-     border-right: 2px solid #cc1400;
+    border-right: 2px solid #cc1400;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin: 0px;
     padding: 30px;
     position: fixed;
@@ -119,18 +129,17 @@ ul{
 
 .material-symbols-outlined{
     color: #ff5a47;
-    font-size: 10px;
+    font-size: 20px;
     vertical-align: bottom;
+    padding:10px;
+    padding-top:0px;
 }
 
 #header{
     display: flex;
     flex-direction: row;
 }
-#container{
-    width: 400px;
-    background: yellow;
-}
+
 #floated{
     float: left;
     width: 200px;
@@ -224,18 +233,18 @@ ul{
      #head{ 
          margin: 20px;
          margin-left: 15px;
+         padding-bottom: 0px;
          position: fixed;
          top: 0;
          left: 0;
      } 
     
     #navbar a.icon{
-        border-left: 2px solid #cc1400;
         margin: 30px;
-        margin-top: 20px;
+        margin-top: 10px;
         margin-right: 50px;
         padding: 5px;
-        font-size: 40px;
+        font-size: 50px;
         display: block;
         color: white;
         position: absolute;
@@ -245,7 +254,6 @@ ul{
     }
      #navbar a.icon:hover{
          color: black;
-         border-left: 2px solid black;
          transition: 0.3s ease-in-out;
      }
     h3{
