@@ -37,7 +37,8 @@ h3{
     font-family: 'Barlow', sans-serif;
     font-size: 50px;
     color: white;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+    margin-top: 0;
 }
 
 p{
@@ -129,10 +130,9 @@ li span{
 
 .material-symbols-outlined{
     color: #ff5a47;
-    font-size: 20px;
     vertical-align: bottom;
     padding:10px;
-    padding-top:0px;
+    padding-top:25px;
 }
 
 #header{
@@ -274,6 +274,10 @@ li span{
         margin: 0px;
         margin-top: 70px;
         padding: 10px;
+    }
+
+    .material-symbols-outlined{
+        padding-top: 0px;
     }
     
 }
