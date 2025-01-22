@@ -16,7 +16,6 @@ a{
 #navlinks:hover{
     color: black;
     border-right: 2px solid #000000;
-    border-left: 2px solid #000000;
     transition: 0.3s ease-in-out;
 }
 
@@ -113,7 +112,6 @@ li span{
     display: flex;
     justify-content: center;
     border-right: 2px solid #cc1400;
-     border-left: 2px solid #cc1400;
     width: 12vw;
     color: white;
     font-size: 30px;
@@ -196,7 +194,13 @@ li span{
     #links{
         color: #ff5a47;
         display: none;
-        margin-top: 40px;
+        margin-top: 90px;
+        width: 100px;
+        /* margin-right: 840px; */
+        height: 95vh;
+        position: fixed;
+        top: 0;
+        left:0;
     }
      #navbar{
          display: flex;
@@ -209,13 +213,15 @@ li span{
      }
 
     #navlinks{
-        padding: 25px;
+        padding: 15px;
         background-color: #ff5a47;
         border-bottom: 2px solid #cc1400;
         justify-content: flex-start;
         display: flex;
-        width: 95vw;
-        text-align: start;
+        vertical-align: middle;
+        width: 30vw;
+        height: 100%;
+        
      }
 
     #navlinks:hover{
@@ -230,7 +236,7 @@ li span{
          padding-bottom: 0px;
          position: fixed;
          top: 0;
-         left: 0;
+         right: 0;
      } 
     
     #navbar a.icon{
@@ -243,7 +249,7 @@ li span{
         color: white;
         position: absolute;
         top: 0;
-        right: 0;
+        left: 0;
         transition: 0.3s ease-in-out;
     }
      #navbar a.icon:hover{
@@ -252,7 +258,6 @@ li span{
      }
     h3{
         padding: 5px;
-        border-left: 2px solid #cc1400;
         font-size: 35px;
         color: white;
         margin: 0px;
