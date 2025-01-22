@@ -16,6 +16,7 @@ a{
 #navlinks:hover{
     color: black;
     border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
     transition: 0.3s ease-in-out;
 }
 
@@ -90,13 +91,6 @@ li span{
     padding-bottom: 70px;
 }
 
-#navcontent{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    padding-bottom: 10px;
-}
-
 #links{
     display: flex;
     padding-bottom: 50px;
@@ -112,6 +106,7 @@ li span{
     display: flex;
     justify-content: center;
     border-right: 2px solid #cc1400;
+    border-left: 2px solid #cc1400;
     width: 12vw;
     color: white;
     font-size: 30px;
@@ -216,6 +211,7 @@ li span{
         padding: 15px;
         background-color: #ff5a47;
         border-bottom: 2px solid #cc1400;
+        border-left: none;
         justify-content: flex-start;
         display: flex;
         vertical-align: middle;
@@ -227,6 +223,7 @@ li span{
     #navlinks:hover{
     color: black;
     border-bottom: 2px solid #000000;
+    border-left: none;
     transition: 0.3s ease-in-out;
     }
 
