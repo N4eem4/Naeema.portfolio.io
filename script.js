@@ -1,10 +1,17 @@
 function navHide() {
   var w = window.innerWidth;
   var link = document.getElementById("links");
+  var hamburger = document.getElementById("hamburger");
+  var close = document.getElementById("close");
   if (link.style.display === "flex"&& w < 1000) {
     link.style.display = "none";
-  } else {
+    hamburger.style.display = "none";
+    close.style.display = "block";
+  } 
+  else {
     link.style.display = "flex";
+    hamburger.style.display = "block";
+    close.style.display = "none";
   }
 }
 
