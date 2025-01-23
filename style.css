@@ -186,15 +186,17 @@ li span{
 @media only screen and (max-width:1000px) {
 
     #links{
-        color: #ff5a47;
-        display: none;
-        margin-top: 90px;
-        width: 0;
-        /* margin-right: 840px; */
         height: 100%;
+        width: 300px;
         position: fixed;
+        z-index: 1;
         top: 0;
-        left:0;
+        left: 0;
+        background-color: #cc1400;
+        border-right: 2px solid #921305;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 80px;
     }
      #navbar{
          display: flex;
@@ -208,14 +210,13 @@ li span{
 
     #navlinks{
         padding: 15px;
-        background-color: #ff5a47;
-        border-bottom: 2px solid #cc1400;
-        border-left: none;
+        /* background-color: #ff5a47; */
+        border: none;
         justify-content: flex-start;
         display: flex;
         vertical-align: middle;
         width: 30vw;
-        height: 100%;
+        margin-top: 70px;
         
      }
 
@@ -235,7 +236,7 @@ li span{
          right: 0;
      } 
     
-    #navbar a.hamburger, a.close{
+     a.hamburger{
         margin: 30px;
         margin-top: 10px;
         margin-right: 50px;
@@ -246,20 +247,21 @@ li span{
         position: absolute;
         top: 0;
         left: 0;
+        z-index: 1;
         transition: 0.3s ease-in-out;
     }
 
-    #navbar a.close{
+     a.close{
+        display: block;
         margin: 30px;
         margin-top: 10px;
         margin-right: 50px;
         padding: 5px;
         font-size: 50px;
-        display: none;
         color: white;
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
         transition: 0.3s ease-in-out;
     }
 
