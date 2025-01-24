@@ -95,6 +95,7 @@ li span{
     display: flex;
     padding-bottom: 50px;
     height: 100%;
+    width: 20vw;
     flex-direction: column;
     text-align: center;
     align-items: stretch;
@@ -137,7 +138,7 @@ li span{
     width: 200px;
     background: red;
 }
-#navbar a.hamburger, a.close{
+ a.hamburger, a.close{
     display: none;
 }
 
@@ -187,12 +188,12 @@ li span{
 
     #links{
         height: 100%;
-        width: 300px;
+        width: 0;
         position: fixed;
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: #cc1400;
+        background-color: #ab2e20;
         border-right: 2px solid #921305;
         overflow-x: hidden;
         transition: 0.5s;
@@ -222,8 +223,7 @@ li span{
 
     #navlinks:hover{
     color: black;
-    border-bottom: 2px solid #000000;
-    border-left: none;
+    border: none;
     transition: 0.3s ease-in-out;
     }
 
@@ -247,15 +247,14 @@ li span{
         position: absolute;
         top: 0;
         left: 0;
-        z-index: 1;
+        z-index: 0;
         transition: 0.3s ease-in-out;
     }
 
      a.close{
         display: block;
         margin: 30px;
-        margin-top: 10px;
-        margin-right: 50px;
+        margin-top: 90px;
         padding: 5px;
         font-size: 50px;
         color: white;
@@ -298,20 +297,4 @@ li span{
         padding-top: 0px;
     }
     
-}
-
-@media only screen and (max-width: 500px)
-{
-    #navlinks{
-        padding: 15px;
-        background-color: #ff5a47;
-        border-bottom: 2px solid #cc1400;
-        border-left: none;
-        justify-content: flex-start;
-        display: flex;
-        vertical-align: middle;
-        width: 100vh;
-        height: 70px;
-        
-     }   
 }

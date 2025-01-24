@@ -1,27 +1,22 @@
-function navHide() {
+function closeNav() {
   var w = window.innerWidth;
-  var link = document.getElementById("links");
-  var hamburger = document.getElementById("hamburger");
-  var close = document.getElementById("close");
-  if (link.style.display === "flex"&& w < 1000) {
-    link.style.display = "none";
-    hamburger.style.display = "none";
-    close.style.display = "block";
-  } 
-  else {
-    link.style.display = "flex";
-    hamburger.style.display = "block";
-    close.style.display = "none";
+  if(w < 1000){
+    document.getElementById("links").style.width = "0";
   }
+  
 }
 
 function resize() {
   var w = window.innerWidth;
   if (w >= 1001) {
-    document.getElementById('links').style.display = 'flex';
+    document.getElementById('links').style.width = '20vw';
   }
-  else{
-    document.getElementById('links').style.display = "none";
+  else if (w< 1000){
+    document.getElementById('links').style.width = "0";
   }
+}
+
+function openNav(){
+  document.getElementById("links").style.width = "300px";
 }
 
