@@ -162,14 +162,9 @@ li span{
 }
 
 #socials{
-    font-size: 30px;
-    color: white;
-    padding: 10px;
-    background-color: #ff5a47;
-    border: 2px solid #cc1400;
+    padding: 5px;
     margin: 5px;
     transition: 0.3s ease-in-out;
-    border-radius: 10px;
 }
 
 #insideflex{
@@ -178,8 +173,7 @@ li span{
 }
 
 #socials:hover{
-    background-color: #cc1400;
-    border-color: #ff5a47;
+    filter: invert(14%) sepia(92%) saturate(5840%) hue-rotate(12deg) brightness(85%) contrast(104%);
     transition: 0.3s ease-in-out;
 }
 
