@@ -15,8 +15,6 @@ a{
 
 #navlinks:hover{
     color: black;
-    border-right: 2px solid #000000;
-    border-left: 2px solid #000000;
     transition: 0.3s ease-in-out;
 }
 
@@ -35,10 +33,8 @@ h2{
 }
 h3{
     font-family: 'Barlow', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
-    margin-bottom: 150px;
-    margin-top: 60px;
 }
 
 p{
@@ -70,12 +66,11 @@ li span{
 }
 
 #navbar{
-    width: 15vw;
-    height: 100vh;
+    width: 100vw;
+    height: 60px;
     background-color: #ff5a47;
-    border-right: 2px solid #cc1400;
+    border-bottom: 3px solid #cc1400;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 0px;
@@ -83,41 +78,36 @@ li span{
     position: fixed;
     top: 0;
     left: 0;
-    text-align: center;
 }
 
 #head{
-    margin-top: -30px;
-    padding-bottom: 70px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    color: white;
+    width: 25vw;
 }
 
 #links{
     display: flex;
-    padding-bottom: 50px;
-    height: 100%;
-    width: 20vw;
-    flex-direction: column;
-    text-align: center;
-    align-items: stretch;
-    margin-top: -85px;
+    width:100%;
+    justify-content:space-evenly;
 }
 
 #navlinks{
     display: flex;
     justify-content: center;
-    border-right: 2px solid #cc1400;
-    border-left: 2px solid #cc1400;
-    width: 12vw;
     color: white;
     font-size: 30px;
-    padding: 3vh;
+    padding: 30px;
     transition: 0.3s ease-in-out;
 }
 
 #content{
     display: flex;
     flex-direction: column;
-    margin-left: 20vw;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 10px;
 }
 
@@ -191,7 +181,8 @@ li span{
         border-right: 2px solid #921305;
         overflow-x: hidden;
         transition: 0.5s;
-        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
     }
      #navbar{
          display: flex;
@@ -205,13 +196,11 @@ li span{
 
     #navlinks{
         padding: 15px;
-        /* background-color: #ff5a47; */
         border: none;
         justify-content: flex-start;
         display: flex;
         vertical-align: middle;
         width: 30vw;
-        margin-top: 70px;
         
      }
 
@@ -223,11 +212,13 @@ li span{
 
      #head{ 
          margin: 20px;
-         margin-left: 15px;
          padding-bottom: 0px;
+         display: flex;
+         justify-content: flex-end;
          position: fixed;
          top: 0;
          right: 0;
+         width: 50vw;
      } 
     
      a.hamburger{

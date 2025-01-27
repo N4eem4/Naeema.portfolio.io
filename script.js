@@ -9,7 +9,7 @@ function closeNav() {
 function resize() {
   var w = window.innerWidth;
   if (w >= 1001) {
-    document.getElementById('links').style.width = '20vw';
+    document.getElementById('links').style.width = '100%';
   }
   else if (w< 1000){
     document.getElementById('links').style.width = "0";
@@ -17,6 +17,10 @@ function resize() {
 }
 
 function openNav(){
-  document.getElementById("links").style.width = "300px";
+  if(window.innerWidth < 1000)
+    {
+      document.getElementById("links").style.width = "300px";
+    }
+  
 }
 
