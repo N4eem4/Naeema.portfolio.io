@@ -179,7 +179,6 @@ li span{
         left: 0;
         background-color: #ab2e20;
         border-right: 2px solid #921305;
-        overflow-x: hidden;
         transition: 0.5s;
         display: flex;
         flex-direction: column;
@@ -239,7 +238,6 @@ li span{
      a.close{
         display: block;
         margin: 30px;
-        margin-top: 90px;
         padding: 5px;
         font-size: 50px;
         color: white;
