@@ -91,6 +91,7 @@ li span{
     display: flex;
     width:100%;
     justify-content:space-evenly;
+    margin-right: 40px;
 }
 
 #navlinks{
