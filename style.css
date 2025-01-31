@@ -4,7 +4,7 @@ html {
     margin: 0px;
     padding: 0px;
     background-color: #fdf1e8;
-    scroll-behavior: smooth;;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -146,7 +146,8 @@ li span{
 
 .profile{
     float: left;
-    margin: 25px;
+    margin: 5px;
+    margin-right: 30px;
     border: 3px solid #ff5a47;
     border-radius: 10px;
     box-shadow: 5px 5px #cc1400;
